@@ -1,10 +1,12 @@
 package me.pujari.queue.ArrayQueue;
 
+import me.pujari.queue.Interface.IQueue;
+
 /**
  * @Author : Pushkarraj Pujari
  * @Since : 8/9/2017.
  */
-public class AQueue {
+public class AQueue implements IQueue {
     private int [] queue;
     private int queuePointer;
 

@@ -1,12 +1,13 @@
 package me.pujari.queue.LinkedListQueue;
 
+import me.pujari.queue.Interface.IQueue;
 import me.pujari.queue.LinkedList.NodeManager;
 
 /**
  * @Author : Pushkarraj Pujari
  * @Since  : 09-09-2017.
  */
-public class LQueue {
+public class LQueue implements IQueue{
     private NodeManager nodeManager;
     private int dequeuedValue;
 
